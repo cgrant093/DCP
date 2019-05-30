@@ -9,7 +9,7 @@ sortedA = sorted(unsortedA)
 
 print(sortedA)
 
-k=0; j=0;
+k=0
 
 for i in range(len(sortedA)):
 
