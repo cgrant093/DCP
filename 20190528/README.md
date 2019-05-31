@@ -1,11 +1,9 @@
-This problem was asked by Google.
+This problem was asked by Airbnb.
 
-An XOR linked list is a more memory efficient doubly linked list. 
-Instead of each node holding next and prev fields, it holds a field named both, 
-which is an XOR of the next node and the previous node. 
-Implement an XOR linked list; it has an add(element) which adds the element to the end, 
-and a get(index) which returns the node at index.
+Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. 
+Numbers can be 0 or negative.
 
-If using a language that has no pointers (such as Python), 
-you can assume you have access to get_pointer and dereference_pointer functions 
-that converts between nodes and memory addresses.
+For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. 
+[5, 1, 1, 5] should return 10, since we pick 5 and 5.
+
+Follow-up: Can you do this in O(N) time and constant space?
