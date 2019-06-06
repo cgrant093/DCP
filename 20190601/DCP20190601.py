@@ -1,13 +1,10 @@
 # find substring function
 def findSubstr(s, k, i):
-    if k == 0:
-        return 1
-
-    if len(s) < k:
+    if k > len(s):
         return 0
 
-    elif i == len(s)-1:
-        return 1
+    elif k == len(s):
+        return k
 
     else:
 
