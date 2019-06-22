@@ -1,9 +1,13 @@
-You run an e-commerce website and want to record the last N order ids in a log. 
-Implement a data structure to accomplish this, with the following API:
+This problem was asked by Microsoft.
 
-record(order_id): adds the order_id to the log
+Given a dictionary of words and a string made up of those words (no spaces), 
+return the original sentence in a list. 
+If there is more than one possible reconstruction, return any of them. 
+If there is no possible reconstruction, then return null.
 
-get_last(i): gets the ith last element from the log. 
-	i is guaranteed to be smaller than or equal to N.
+For example, given the set of words 'quick', 'brown', 'the', 'fox', 
+and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
 
-You should be as efficient with time and space as possible.
+Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', 
+and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] 
+or ['bedbath', 'and', 'beyond'].
